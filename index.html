@@ -15,22 +15,24 @@
         <div id="countdown-timer"></div>
     </header>
 
-    <h1>Welcome to QUIZ CHALLENGE!</h1>
-    <button id="submit">START</button>   
+    <div class="welcome">
+        <h1>Welcome to QUIZ CHALLENGE!</h1>
+        <button id="start">START</button>
+    </div>  
     
     <!-- possible banner? -->
-    <div id="quiz box" class="hide">
-        <h2>Question</h2>
+    <div id="quizBox" class="hide">
+        <h2 id="question">Question</h2>
         <div id="answer-buttons class="btn-grid>
-            <button id="option0" class="btn"></button>
-            <button id="option1" class="btn"></button>
-            <button id="option2" class="btn"></button>
-            <button id="option3" class="btn"></button>    
+            <button id="option0" data-index="0" class="btn"></button>
+            <button id="option1" data-index="1" class="btn"></button>
+            <button id="option2" data-index="2" class="btn"></button>
+            <button id="option3" data-index="3" class="btn"></button>  
         </div>  
-
+        <h3 id="result"></h3>
     </div>
             
-    <div id=high-scores></div>
+    <div id="high-scores"></div>
     <footer>An INVOLVED : JASON game</footer>
     <script src="assets/js/script.js"></script>
 </body>

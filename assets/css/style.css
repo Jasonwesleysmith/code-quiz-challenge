@@ -25,7 +25,7 @@ footer {
     font-size: 24px;
     border-radius: 15px;
 }
-#submit {
+#start {
     background-color: #4CAF50;
     /* border-color: black;
     border: 5px; */
@@ -43,4 +43,8 @@ footer {
     margin-top: 15px;
     display: flex;
     justify-content:right
+}
+
+#quizBox {
+    display: none;
 }
