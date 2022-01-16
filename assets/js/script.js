@@ -9,3 +9,12 @@ var interval = setInterval(function(){
     alert("You're out of time!");
   }
 }, 1000);
+
+function startGame() {
+
+}
+
+function displayQuestion() {
+    
+}
+
