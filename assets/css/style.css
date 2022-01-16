@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(166, 169, 166);
+}
+
+h1 {
+    font-size: 96px;
+    font-family: sans-serif;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: tomato;
+    font-weight: bold;
+}
+
+#view-high-scores {
+    background-color: rgb(127, 167, 104);
+    border: none;
+    font-size: 24px;
+    border-radius: 15px;
+}
+#submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 32px 32px;
+    margin-left: 25%;
+    text-decoration: none;
+    width: 50%;
+    font-size: 36px;
+    border-radius: 15px;
+}
+
+#countdown-timer {
+    font-size: 50px;
+    display: flex;
+    justify-content:right
+}
