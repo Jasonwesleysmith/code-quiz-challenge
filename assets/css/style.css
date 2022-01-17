@@ -15,8 +15,10 @@ footer {
     font-family: sans-serif;
     color: tomato;
     font-weight: bold;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+
 }
 
 #view-high-scores {
@@ -47,4 +49,25 @@ footer {
 
 #quizBox {
     display: none;
+}
+
+.btn {
+    font-size: 24px;
+    background-color:gold;
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 25%;
+    
+}
+
+#question {
+    font-size: 62;
+    display: flex;
+    align-items: center;
+}
+
+#answer-buttons {
+    display: flex;
+    justify-content: center;
 }

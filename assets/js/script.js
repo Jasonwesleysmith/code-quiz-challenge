@@ -1,53 +1,53 @@
 const quizQuestions = [
     {
-        question: "I am a question?",
-        answers: ["option1", "option2", "option3", "option4"],
+        question: "Which is not a Javascript data type?",
+        answers: ["string", "object", "class", "undefined"],
+        correctAnswer: 2 //index of answers array
+    },
+    {
+        question: "What is a Nan value?",
+        answers: ["a type of bread", "term for zero", "not a number", "null"],
+        correctAnswer: 2 //index of answers array
+    },
+    {
+        question: "What company developed JavaScript?",
+        answers: ["Apple", "Netscape", "Dell", "CBS"],
+        correctAnswer: 1 //index of answers array
+    },
+    {
+        question: "What is the symbol for commenting in Javascript",
+        answers: ["//", "&&", "#", "!"],
         correctAnswer: 0 //index of answers array
     },
     {
-        question: "I am question 2",
-        answers: ["option1", "option2", "option3", "option4"],
+        question: "Which one is a strict quality operator?",
+        answers: ["[]", "{}", "<=", "==="],
+        correctAnswer: 3 //index of answers array
+    },
+    {
+        question: "Which one is not a type of pop up box in Javascript?",
+        answers: ["Alert", "Confirm", "Prompt", "Window"],
+        correctAnswer: 3 //index of answers array
+    },
+    {
+        question: "What is Var short for ",
+        answers: ["Varnish", "Variable", "Victory and revenge", "VAR"],
+        correctAnswer: 1 //index of answers array
+    },
+    {
+        question: "In Javascript, what symbols would be used to denote an array?",
+        answers: ["[]", "{}", "<><>", "++"],
         correctAnswer: 0 //index of answers array
     },
     {
-        question: "I am a question 3?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
+        question: "What does a for loop run through?",
+        answers: ["methods", "variables", " all properties of an object", "points"],
+        correctAnswer: 2 //index of answers array
     },
     {
-        question: "I am a question 4?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
-    },
-    {
-        question: "I am a question 5?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
-    },
-    {
-        question: "I am a question 6?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
-    },
-    {
-        question: "I am a question 7?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
-    },
-    {
-        question: "I am a question 8?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
-    },
-    {
-        question: "I am a question 9?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
-    },
-    {
-        question: "I am a question 10?",
-        answers: ["option1", "option2", "option3", "option4"],
-        correctAnswer: 0 //index of answers array
+        question: "what does event bubbling refer to?",
+        answers: ["typing", "click", "numbers", "methods"],
+        correctAnswer: 1 //index of answers array
     },
 ]
 
@@ -104,17 +104,6 @@ function checkAnswer(e) {
 }
 
 function endGame() {
-    //do shit here
+
 }
 
-// ✅ WHEN I click the start button
-// ✅ THEN a timer starts and I am presented with a question
-// ✅ WHEN I answer a question
-// ✅ THEN I am presented with another question
-// ✅ THEN I am presented with another question
-// ✅WHEN I answer a question incorrectly
-// ✅THEN time is subtracted from the clock
-// WHEN all questions are answered or the timer reaches 0
-// THEN the game is over
-// WHEN the game is over
-// THEN I can save my initials and score
